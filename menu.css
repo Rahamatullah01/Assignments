@@ -1,0 +1,64 @@
+.pizza-image {
+        background: url(https://t4.ftcdn.net/jpg/09/88/11/13/360_F_988111369_PxMp15vF2BC4whQx9K5iZfAfofCABgAR.jpg);
+        
+    }
+
+    .salad-image {
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGldD38nvTIp03sX715fcZgjamuLsv8lVrsm0z3JA_rIV7oddz5RXrJ5bs&s=10);
+        
+    }
+
+    .dessert-image {
+        background: url(https://media.istockphoto.com/id/497959594/photo/fresh-cakes.jpg?s=612x612&w=0&k=20&c=T1vp7QPbg6BY3GE-qwg-i_SqVpstyHBMIwnGakdTTek=);
+        
+    }
+
+    .drink-image {
+        background: url(https://hips.hearstapps.com/hmg-prod/images/refreshing-summer-drink-pomegranate-thyme-spritz-667f2085cfd79.jpg?crop=0.668xw:1.00xh;0.294xw,0);
+       
+    }
+
+    .pizza-image, .salad-image, .dessert-image, .drink-image {
+        height: 170px;
+        width: 140px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .pizza, .salads, .desserts, .drinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        font-weight: bold;
+        font-size: small;
+    }
+    .menu {
+        display: flex;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(240, 222, 200);
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    button {
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        background-color: rgb(245, 155, 9);
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color:  rgb(245, 155, 9);
+    }
+    
