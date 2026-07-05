@@ -6,16 +6,17 @@ body {
 }
 #wide {
     background-color: lightgray;
+    width: 95%;
 }
 
 button {
+    width: 100%;
     text-align: center;
     background-color: rgb(178, 15, 15);
     color: white;
 }
 
 #wide, button {
-    width: 100%;
     padding: 10px;
     border: none;
 }
