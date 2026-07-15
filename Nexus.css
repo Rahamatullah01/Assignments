@@ -51,7 +51,10 @@ a{
 
 .hero h1{
    font-size: 60px;
-   text: linear-gradient(to right, rgb(96, 165,250),rgb(139, 92, 246));
+   background: linear-gradient(to right, rgb(96, 165,250), rgb(139, 92, 246));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
    line-height: 1.1;
    margin-bottom: 20px;
    font-weight: bolder;
