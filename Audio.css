@@ -61,9 +61,10 @@ body{
 }
 
 .hero-visual{
-    flex: 1;
+   
     position: relative;
-    height: 420px;
+    height: 500px;
+    width: 520px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -77,6 +78,7 @@ body{
     position: absolute;
     top: 65px;
     right: 130px;
+    z-index: 1;
 }
 
 .image-visual{
@@ -84,6 +86,7 @@ body{
     height: 250px;
     position: relative;
     margin: 0 auto;
+    z-index: 2;
 }
 
 .image-visual img{
@@ -102,17 +105,19 @@ body{
     border-radius: 20px;
     font-size: 13px;
     box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    z-index: 3;
 }
 
 .review{
     position: absolute;
-    bottom: 70px;
-    right: 0.5px;
+    bottom: 30px;
+    right: 10px;
     background: white;
     padding: 12px 18px;
     border-radius: 10px;
     font-size: 13px;
-    
+    font-weight: 600;
     color: #333;
     box-shadow: 0 12px 25px rgba(0,0,0,.15);
+    z-index: 3;
 }
