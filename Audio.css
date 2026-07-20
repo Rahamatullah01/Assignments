@@ -76,6 +76,7 @@ body{
     background: orange;
     border-radius: 50%;
     position: absolute;
+    border: #2F3640;
     top: 65px;
     right: 130px;
     z-index: 1;
