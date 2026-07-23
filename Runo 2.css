@@ -59,3 +59,18 @@ body{
 .nav-right i{
     margin-right: 17px;
 }
+
+.hero{
+    width: 1440px;
+    height: 600px;
+    color: #FFFFFF;
+}
+
+.hero-details{
+    padding-top: 198px;
+    padding-left: 69px;
+}
+
+.hero-details span{
+    padding: ;
+}
