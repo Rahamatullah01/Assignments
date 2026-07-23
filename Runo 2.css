@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap')
+
 *{
     margin: 0;
     padding: 0;
@@ -9,15 +11,53 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 600;
+    width: 1440px;
 }
 
-nav{
+.navbar{
     width: 1440px;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-left{
+    font-family: "League Spartan", sans-serif;
+    padding: 29px 0;
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F8F9FA;
 }
 
 .nav-right{
-    display: flex;
+    padding: 30px 0;
+    margin-right: 70px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 25px;
+    color: #F8F9FA;
+
+}
+
+.nav-right .fa-sistrix{
+    margin-right: 0;
+}
+
+.nav-right span{
+    margin-right: 17px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #F8F9FA;
+}
+
+.nav-right i{
+    margin-right: 17px;
 }
