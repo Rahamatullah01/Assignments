@@ -170,22 +170,34 @@ body{
     font-size: 12px;
     line-height: 25px;
     letter-spacing: 0%;
-}
-
-.category .category-left{
-    width: 377px;
-    height: 25px;
-    
-    
-    margin-right: 2;
+    margin-top: 30px;
 }
 
 .category-left a{
     text-decoration: none;
     color: #495057;
+    margin-right: 20px;
 }
 
 .category-right a{
     text-decoration: none;
     color: #495057;
+}
+
+.category-left :nth-child(1){
+    color: #D4A373;
+}
+
+.card-image{
+    width: 310px;
+    height: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adventure-img{
+    background-image: url(Blog\ Image.png);
 }
