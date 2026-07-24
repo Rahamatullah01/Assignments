@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -62,7 +62,7 @@ body{
 
 .hero{
     width: 1440px;
-    height: 600px;
+    height: 540px;
     color: #FFFFFF;
 }
 
@@ -73,8 +73,71 @@ body{
 
 .adventure{
     padding: 5px 10px;
-    font-size: ;
-    font-weight: ;
-    max-width: ;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    max-width: 78px;
+    background-color: #FFFFFF26;
+    border-radius: 8px;
+}
 
+.hero-details h1{
+    width: 530px;
+    height: 92px;
+    font-family: "Lora", serif;
+    font-weight: 700px;
+    font-size: 36px;
+    margin-top: 15px;
+}
+
+.date{
+    display: flex;
+}
+
+.line{
+    width: 30px;
+    height: 0px;
+    border: 1px solid #E5E5E5;
+    margin-top: 23px;
+}
+
+.date span{
+    width: 59px;
+    height: 15px;
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 12px; 
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+
+.date p{
+    width: 420px;
+    height: 40px;
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.dot{
+    display: flex;
+}
+
+.dot .circle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #FFFFFF33;
+    margin-right: 10px;
+    margin-top: 85px;
+}
+
+.dot :nth-child(1){
+    background-color: #FFFFFF;
 }
