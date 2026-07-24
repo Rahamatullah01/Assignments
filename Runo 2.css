@@ -5,8 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
+    background-color: #E5E5E5;
+}
+.first-container{
     background: url(Image.png);
     background-position: center;
     background-size: cover;
@@ -140,4 +142,50 @@ body{
 
 .dot :nth-child(1){
     background-color: #FFFFFF;
+}
+
+.second-container{
+    width: 1300px;
+    height: 1311px;
+   margin: 0 auto;
+}
+
+.second-container h1{
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #495057;
+    margin-top: 150px;
+    width: 249px;
+    height: 46px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+
+.category .category-left{
+    width: 377px;
+    height: 25px;
+    
+    
+    margin-right: 2;
+}
+
+.category-left a{
+    text-decoration: none;
+    color: #495057;
+}
+
+.category-right a{
+    text-decoration: none;
+    color: #495057;
 }
