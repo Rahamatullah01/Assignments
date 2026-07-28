@@ -187,17 +187,252 @@ body{
 .category-left :nth-child(1){
     color: #D4A373;
 }
+.first-sec{
+    display: flex;
+    gap: 20px;
+    width: 1300px;
+    margin-top: 30px;
+}
 
-.card-image{
+.second-sec{
+    display: flex;
+    gap: 20px;
+    width: 1300px;
+    margin-top: 50px;
+}
+
+/* .adventure, .brand{
     width: 310px;
+    height: 565px;
+    border: none;
+} */
+
+.cards{
+   width: 310px;
     height: 280px;
+    background-image: url(Blog\ Image.png);
+    position: relative;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .adventure-img{
     background-image: url(Blog\ Image.png);
+}
+
+.brand-img{
+    background-image: url(Blog2.png);
+}
+
+.dream-img{
+    background-image: url(Blog3.jpg);
+}
+
+.paris-img{
+    background-image: url(Blog4.png);
+}
+
+.art-img{
+    background-image: url(Blog5.png);
+}
+
+.anatomy-img{
+    background-image: url(Blog6.png);
+}
+
+.interface-img{
+    background-image: url(Blog7.png);
+}
+
+.year-img{
+    background-image: url(Blog8.png);
+}
+
+.adv-tag{
+    position: absolute;
+    top: 20px;
+    right: 19.5px;
+    color: #FFFFFF;
+    background: #FFFFFF26;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.advv-tag{
+    position: absolute;
+    top: 20px;
+    right: 92px;
+    color: #FFFFFF;
+    background: #FFFFFF26;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.advvv-tag{
+    position: absolute;
+    top: 20px;
+    right: 107px;
+    color: #FFFFFF;
+    background: #FFFFFF26;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.adventure-content{
+    width: 310px;
+    height: 285px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.adventure-content .date{
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: #6C757D;
+}
+
+.adventure-content h3{
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 270px;
+    height: 50px;
+    color: #495057;
+}
+
+.description{
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #6C757D;
+    width: 270px;
+    height: 60px;
+    margin-bottom: 19.81px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    border-top:1px solid #E5E5E5;
+    padding-top: 20px;
+    width: 270px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.adv-author{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.visit-author{
+    background-image: url(author1.png);
+}
+
+.brand-author{
+    background-image: url(author2.png);
+}
+
+.dream-author{
+    background-image: url(author3.png);
+}
+
+.art-author{
+    background-image: url(author4.png);
+}
+
+.interface-author{
+    background-image: url(author5.png);
+}
+
+.year-author{
+    background-image: url(author6.png);
+}
+.adv-info{
+    font-family: Lora;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.adv-info p{
+    font-weight: 400;
+    color: #6C757D;
+}
+
+.adv-info h4{
+    font-weight: 700;
+    color: #25292c;
+} 
+
+.third-container{
+    background-image: url(image2.png);
+    width: 1440px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #FFFFFF;
+    margin-top: 150px;
+    /* align-content: center;
+    text-align: center; */
+}
+
+.third-fashion{
+    padding: 5px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    max-width: 62px;
+    background-color: #FFFFFF26;
+    border-radius: 8px;
+}
+
+.third-container h1{
+    width: 520px;
+    height: 90px;
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
