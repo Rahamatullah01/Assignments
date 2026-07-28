@@ -413,8 +413,7 @@ body{
     height: 600px;
     color: #FFFFFF;
     margin-top: 150px;
-    /* align-content: center;
-    text-align: center; */
+    align-content: center;
 }
 
 .third-fashion{
@@ -425,6 +424,7 @@ body{
     max-width: 62px;
     background-color: #FFFFFF26;
     border-radius: 8px;
+
 }
 
 .third-container h1{
@@ -435,6 +435,7 @@ body{
     font-size: 36px;
     line-height: 100%;
     letter-spacing: 0%;
+    text-align: center;
 }
 
 .third-container p{
@@ -443,6 +444,7 @@ body{
     font-family: Lora;
     font-weight: 400;
     font-size: 12px;
+    text-align: center;
 }
 .line2{
     width: 30px;
@@ -456,4 +458,32 @@ body{
     font-family: Lora;
     font-weight: 400;
     font-size: 12px;
+}
+
+.fourth-container{
+    width: 1300px;
+    height: 466px;
+    margin: 150px auto 0;
+}
+
+.fourth-container h1{
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #495057;
+}
+
+.richird-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 640px;
+    height: 350px;
+   border-radius: 5px;
+}
+
+.walk-img{
+    background-image: url(editor1.png);
 }
