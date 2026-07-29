@@ -22,6 +22,7 @@ body{
     height: 80px;
     display: flex;
     justify-content: space-between;
+    background: #00000033;
 }
 
 .nav-left{
@@ -584,11 +585,45 @@ body{
 
 .items{
     display: flex;
-    margin: ;
-    
+    justify-content: space-between;
+    width: 1162px;
+    height: 188px;
+    margin-left: 70px;
+    margin-right: 208px;
+    padding: 106px 0;
 }
 
+.contact{
+    width: 188px;
+    height: 89px;
+}
 
+.contact .mike, .explorate .about, .explorate .part, .explorate .job, .explorate .adver{
+    padding-bottom: 18px;
+}
+
+.contact .mike, .explorate .about{
+    padding-top: 16px;
+}
+
+.explorate{
+    width: 101px;
+    height: 188px;
+}
+
+.headquater h2, .connection h2{
+    padding-bottom: 18px;
+}
+
+.headquater{
+    width: 115px;
+    height: 100px;
+}
+
+.connection{
+    width: 172px;
+    height: 60px;
+}
 .items h2{
     font-family: Lora;
     font-weight: 700;
@@ -605,4 +640,51 @@ body{
     line-height: 100%;
     letter-spacing: 0%;
     color: #E5E5E5;
+}
+
+.headquater p{
+    line-height: 20px;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+    color: #E5E5E5;
+    margin-right: 18px;
+}
+
+.socials .fa-square-behance{
+    margin-right: 0;
+}
+footer{
+    background-color: #343A40;
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E5E5;
+}
+
+footer .footer-left{
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding: 41px 0;
+    margin-left: 70px;
+}
+
+footer .footer-right{
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding: 41px 0;
+    margin-right: 70px;
 }
