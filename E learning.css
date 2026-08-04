@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-img{
+    background-image: url(E-image1.png);
+    width: 737px;
+    height: 825px;
+    margin-top: 38px;
+    margin-left: 41px;
+}
+
+.login-form{
+    width: 454px;
+    height: 611px;
+    margin-top: 145px;
+    margin-right: 97px;
+}
+
+.welcome .first{
+    padding: 30px;
+}
