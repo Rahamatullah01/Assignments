@@ -17,12 +17,22 @@ main{
 
 .login-img{
     background-image: url(E-image2.png);
+    background-repeat: no-repeat;
     width: 737px;
     height: 825px;
     margin-top: 38px;
     margin-left: 41px;
 }
 
+.login-img h1{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.login-img p{
+    font-weight: 400;
+    color: #FFFFFF;
+}
 .login-form{
     width: 454px;
     height: 611px;
@@ -41,7 +51,7 @@ main{
     border-radius: 33px;
     background: #49BBBD99;
     display: flex;
-    gap: 45px;
+    /* gap: 56px; */
     margin: 0 auto;
     margin-bottom: 52px;
 }
@@ -53,7 +63,7 @@ main{
     background: #49BBBD;
     border: none;
     color: #FFFFFF;
-    margin: 10px 0 9px 13px;
+    margin: 10px 12px 9px 0;
     font-weight: 500;
 }
 
@@ -61,6 +71,7 @@ main{
     background: transparent;
     border: none;
     color: #FFFFFF;
+    margin: 18px 56px 17px 72px;
 }
 
 .lorem p{
@@ -69,7 +80,7 @@ main{
     margin-bottom: 42px;
     color: #5B5B5B;
 }
-.lorem .username{
+.lorem .username, .lorem .email{
     margin-bottom: 30px;
 }
 .lorem input{
