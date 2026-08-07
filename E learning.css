@@ -103,9 +103,34 @@ input::placeholder{
 .remember{
     display: flex;
     justify-content: space-between;
+    margin-top: 22px;
+    align-items: center;
+    width: 432px;
+    height: 18px;
 }
 
-/* .remember input{
-    margin-left: 3px;
-    background-color: red;
-} */
+.remember a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.remember label{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.btn-login{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 62px;
+}
+.btn-login button{
+    background: #49BBBD;
+    border-radius: 36px;
+    width: 232px;
+    height: 49px;
+    border: none;
+    color: #FFFFFF;
+    align-self: flex-end;
+}
